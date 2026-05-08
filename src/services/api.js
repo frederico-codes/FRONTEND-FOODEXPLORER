@@ -1,7 +1,6 @@
 import axios from "axios";
 
-
 export const api = axios.create({
-    baseURL:"https://backend-foodexplorer-z0oj.onrender.com",
-    withCredentials: true
+  baseURL: import.meta.env.VITE_API_URL,
+  withCredentials: true,
 });
