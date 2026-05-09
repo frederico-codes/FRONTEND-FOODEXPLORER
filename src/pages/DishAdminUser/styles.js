@@ -30,6 +30,7 @@ export const Container = styled.div`
                 width: 26.4rem;
                 height: 26.4rem;
                 margin-bottom:2.0rem;
+                margin-left:5rem;
                 
             }        
             .salad-ingredients{                

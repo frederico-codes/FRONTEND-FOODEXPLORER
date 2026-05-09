@@ -4,7 +4,7 @@ import  { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     display: grid;
-    grid-template-rows: 9.4rem 6.0rem 60.8rem 7.7rem;
+    grid-template-rows: 9.4rem 9.0rem 73.5rem 7.7rem;
     grid-template-areas:
     "header"
     "link"
@@ -23,9 +23,11 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;       
-        width: 30.0rem;
-        margin:0 auto;     
-        .dish{        
+        
+        margin:5rem auto 10rem auto; 
+            
+        .dish{   
+            
             >.restaurantDish {
                 width: 26.4rem;
                 height: 26.4rem;
@@ -75,14 +77,14 @@ export const Container = styled.div`
     }       
     
     @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
+        height:100vh;        
         display: grid;
-        grid-template-rows: 9.4rem 8.5rem 65rem 7.7rem;
+        grid-template-rows: 9.4rem 15.5rem 65rem 7.7rem;
         grid-template-areas:
         "header"
         "link"
         "content"
         "footer"; 
-        height:100vh;        
         .mobile-header {
             display: none; 
         }
@@ -137,6 +139,8 @@ export const Container = styled.div`
 `;
  
 export const ReturnLink = styled(Link)`
+    position:relative;
+    left: -4.0rem;
     grid-area: link;  
     height: 6.0rem;
     display:flex;

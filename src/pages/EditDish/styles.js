@@ -308,7 +308,7 @@ export const Form = styled.form`
     
         @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
             margin-top: 3rem;
-            margin-bottom: 23rem;                
+            margin-bottom: 3rem;                
             .image-salad-category{
                 width: 113.7rem;
                 height: 10.0rem;
