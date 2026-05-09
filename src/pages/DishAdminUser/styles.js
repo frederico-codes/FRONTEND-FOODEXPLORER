@@ -72,7 +72,7 @@ export const Container = styled.div`
     
     @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
         display: grid;
-        grid-template-rows: 9.4rem 8.5rem 83.5rem 7.7rem;
+        grid-template-rows: 9.4rem 8.5rem 72.5rem 7.7rem;
         grid-template-areas:
         "header"
         "link"

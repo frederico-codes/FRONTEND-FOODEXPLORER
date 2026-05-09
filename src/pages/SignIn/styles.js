@@ -33,7 +33,7 @@ export const Header = styled.div`
 
     @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
         position: absolute;
-        top: 34.1rem;
+        top: 54.1rem;
         left: 22.2rem;
         > .content p {
             font-size: 4.2rem;  
@@ -101,8 +101,8 @@ export const Form = styled.form`
 
     @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
         position: absolute;
-        top: 16.2rem;
-        right: 26.8rem;
+        top: 30rem;
+        right: 46.8rem;
         padding: 6.4rem;
         height: 54.1rem;
         background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};

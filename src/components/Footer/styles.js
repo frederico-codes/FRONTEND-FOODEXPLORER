@@ -25,7 +25,7 @@ export const Container = styled.footer`
 
   @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
     grid-area: footer;
-    margin: 8rem auto 0 auto; 
+    margin:20rem auto 0 auto; 
     >main{
       gap:71.5rem;    
       p{

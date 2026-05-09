@@ -9,7 +9,7 @@ export const Container = styled.header`
   justify-content:center;
   align-items: center;
   background-color:${({theme}) => theme.COLORS.BACKGROUND_600}; 
-  position: fixed;
+  
   top: 0;
   z-index: 999;
   opacity: 0;
