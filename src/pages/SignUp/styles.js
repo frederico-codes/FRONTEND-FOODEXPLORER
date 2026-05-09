@@ -99,8 +99,8 @@ export const Form = styled.form`
 
     @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
         position: absolute;
-        top: 14.2rem;
-        right: 10.8rem;
+        top: 15.2rem;
+        right: 25.8rem;
         padding: 6.4rem;
         height: 65.0rem;
         background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
