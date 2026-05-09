@@ -66,7 +66,7 @@ export const Form = styled.form`
         align-items: flex-start;
         gap:.8rem;
         width: 47.6rem;
-        padding: 0 6.4rem;
+        padding: 0 6.4rem;        
         label{
             font-family: Roboto;
             font-size: 1.6rem;

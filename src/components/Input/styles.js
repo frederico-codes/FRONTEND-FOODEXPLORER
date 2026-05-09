@@ -20,7 +20,7 @@ export const Container = styled.div`
         font-weight: 400;
         line-height: 100%; 
         color:${({theme}) => theme.COLORS.WHITE};
-        background-color:${({theme}) => theme.COLORS.BACKGROUND_800};
+        background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
         border:0;            
             
         &::placeholder {
