@@ -5,6 +5,7 @@ export const Container = styled.footer`
   grid-area: footer; 
   width: 100%;
   height: 7.7rem;
+  margin-top: 2rem;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -24,7 +25,7 @@ export const Container = styled.footer`
 
   @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
     grid-area: footer;
-    margin: 0 auto; 
+    margin: 8rem auto 0 auto; 
     >main{
       gap:71.5rem;    
       p{

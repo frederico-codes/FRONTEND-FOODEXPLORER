@@ -33,7 +33,8 @@ export const Container = styled.div`
         }    
     }    
                      
-    @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {                         
+    @media (min-width: ${DEVICE_BREAKPOINTS.LG}) { 
+        height: 100vh;                        
         .header-mobile {
             display: none; 
         }
@@ -42,6 +43,7 @@ export const Container = styled.div`
             width:100%;
             margin-bottom:12.0rem;
         }        
+            height: 100vh;
         >a{
             margin-top:0rem;
             width:115.0rem;
@@ -54,10 +56,11 @@ export const Container = styled.div`
         }                 
     }
 `;        
-       
+
+
     
 export const Form = styled.form`  
-    padding-bottom: 3.0rem;    
+       
     >header{
         .addDish{
             display:none;
@@ -304,7 +307,8 @@ export const Form = styled.form`
         }
     
         @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {
-            margin-bottom:6rem;                     
+            margin-top: 3rem;
+            margin-bottom: 23rem;                
             .image-salad-category{
                 width: 113.7rem;
                 height: 10.0rem;

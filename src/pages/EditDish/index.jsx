@@ -136,7 +136,7 @@ export function EditDish(){
                 <DesktopHeader />
             </div>
 
-            <Link to="/">
+            <Link to="/" >
                 <img src={CaretLeft} alt="imagem de uma seta apontando para esquerda" />
                 Voltar
             </Link>                        

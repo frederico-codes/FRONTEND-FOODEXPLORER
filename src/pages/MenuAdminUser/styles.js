@@ -68,7 +68,7 @@ export const Banner  = styled.div`
         position:absolute;
         z-index:-1;
         top: 2.5rem;
-        right: 2rem;        
+        right: -2rem;        
         border-radius: .8rem;
         background: linear-gradient(180deg, #091E26 0%, #00131C 100%);
         padding-right: 1.3rem;               
@@ -145,11 +145,11 @@ export const Banner  = styled.div`
 export const Content  = styled.div`         
     grid-area:content;
     width: 38.0rem;
-    margin:0 auto 2rem auto; 
+    margin:2rem auto 2rem auto; 
  
     @media (min-width: ${DEVICE_BREAKPOINTS.LG}) {  
         width:112.0rem;
-        margin:0 auto;
+        margin:8rem auto ;
     }
 `;
 
