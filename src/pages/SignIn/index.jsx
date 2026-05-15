@@ -30,7 +30,7 @@ export function SignIn(){
                     <label htmlFor="email">Email:</label>
                     <Input
                         placeholder="Exemplo: exemplo@exemplo.com.br"
-                        type="text"                   
+                        type="email"                   
                         onChange = {e => setEmail(e.target.value)}
                     />
                 </div>
